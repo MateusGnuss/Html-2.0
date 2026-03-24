@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Aula 06</title>
+</head>
+
+<body>
+    <header>
+        <h1>Aula 06</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Videos</h2>
+            <div>
+                <h3>Video HTML</h3>
+                <video controls width="600"
+                    src="https://videos.rockstargames.com/v4/ks18e7s9/flv/en-us-2160p.mp4"></video>
+            </div>
+            <div>
+                <h3>Video Youtube</h3>
+                <iframe width="560" height="315"
+                    src="https://www.youtube.com/embed/cWBwFhUv1-8?si=O_93iXFJZCNYy7ie&amp;start=35"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+
+        </section>
+        <h2>tabelas</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>idade</th>
+                    <th>Idade</th>
+                    <th colspan="2"> Profissão</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mateus</td>
+                    <td rowspan="2">19</td>
+                    <td>CD</td>
+                    <td>Gamer</td>
+                </tr>
+                <tr>
+                    <td>Mateus</td>
+
+                    <td>CD</td>
+                    <td>Gamer</td>
+                </tr>
+                <table>
+                    <section>
+                        <h2>Formularios</h2>
+                        <form action="get">
+                            <fieldset>
+                                <legend>Dados pessoais</legend>
+                                <label  for="Nome">Nome:</label>
+                                <input id="Nome" type="text" placeholder="Teu nome Macho">
+                                <br>
+                                <label for="">Email</label>
+                                <input type="email-personal" type="email">
+                            </fieldset>
+                            <input type="submit">
+                            <input type="reset">
+                            <fieldset>
+
+                            </fieldset>
+                            <legend> Seleção de listas</legend>
+                            <label for="estado">Selecione seu estado</label>
+                            <select name="estado-selecionado" id="estado">
+                                <option value="Sc"> Santa Catarina</option>
+                                <option value="PR"> Parana</option>
+                                <option value="SP"> São paulo</option>
+                                <select>
+                                    <fieldset>
+                                        <fieldset>
+                                            <legend>Qual o melhor periodo de estudo?</legend>
+                                            <input type="radio" id="manha" name="periodo-estudo">
+                                            <label for="manha">Manha</label>
+
+                                            <input type="radio" id="tarde" name="periodo-estudo">
+                                            <label for="tarde">Tarde</label>
+
+                                            <input type="radio" id="Noite" name="periodo-estudo">
+                                            <label for="Noite">Noite</label>
+                                        </fieldset>
+
+                                        <fieldset>
+                                            <legend>Lista de compras</legend>
+                                            <input type="checkbox" id="cafe" name="cafe">
+                                            <label for="cafe">Café</label>
+                                            <br>
+                                            <input type="checkbox" id="Leite" name="Leite">
+                                            <label for="leite">Leite</label>
+                                            <br>
+                                            <input type="checkbox" id="Placa de video " name="Placa de video">
+                                            <label for="Placa de video">Placa de video</label>
+                                        
+                                        </fieldset>
+                                        <legend>Comentarios</legend>
+                                        <textarea name="comentario" id="" cols="50" rows="15"></textarea>
+                                    </fieldset>
+                        </form>
+                    </section>
+                </table>
+            </tbody>
+            <section>
+    </main>
+    <footer></footer>
+</body>
+
+</html>
